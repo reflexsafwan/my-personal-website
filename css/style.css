@@ -18,14 +18,14 @@
 .banner {
   background-image: url("../images/Hero-bg.png");
   background-size: contain;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .banner-img {
-  margin-bottom: 24px;
+  margin-top: 20px;
 }
 .banner-content {
   display: flex;
@@ -43,7 +43,7 @@
   text-align: center;
 }
 .banner-content p {
-  color: #0d1321;
+  color: #242b3e;
   font-size: 18px;
   font-family: Azeret Mono;
   font-weight: 400;
@@ -58,4 +58,79 @@
   border-radius: 5px;
   margin: 20px 0px;
   font-size: 20px;
+}
+.container {
+  width: 70%;
+  padding: 80px 90px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border: 2px solid red;
+  margin: 40px auto;
+}
+.development-heading h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 40px 0px;
+  color: #0d1321;
+  line-height: 26px;
+}
+.development-heading p {
+  text-align: center;
+  font-size: 18px;
+  color: #0d13219c;
+  line-height: 26px;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  border: 2px solid red;
+}
+.card-text {
+  margin: 20px 40px;
+}
+.card-text h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.card-text p {
+  color: #0d1321;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 12px 20px;
+  color: #0d1321;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+}
+.card2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-top: 48px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  border: 2px solid red;
+}
+.card2 .card-img {
+  margin-right: 20px;
+  margin-left: 30px;
 }
